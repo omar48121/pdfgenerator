@@ -1,3 +1,4 @@
+import pdfkit
 from jinja2 import Environment, FileSystemLoader
 
 env = Environment(loader=FileSystemLoader("templates"))
@@ -16,3 +17,5 @@ html = template.render(usuario)
 f = open("portada.html", "w")
 f.write(html)
 f.close()
+
+pdfkit.from_file('portada.html', 'pdf_portada.pdf')
