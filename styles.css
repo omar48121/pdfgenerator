@@ -1,0 +1,19 @@
+.pdf-container {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 21cm;
+    height: 29.7cm;
+    padding: 2.5cm 3cm;
+    box-sizing: border-box;
+    background-color: white;
+}
+body {
+    background-color: lightgrey;
+}
+img {
+    display: block;
+    margin: auto;
+}
+h1, h2, h3 {
+    text-align: center;
+}
