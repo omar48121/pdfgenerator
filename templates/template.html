@@ -3,21 +3,23 @@
 <head>
 
     <style>
-        .pdf-container {
+        /* .pdf-container {
             margin: auto;
             width: 21cm;
             height: 29.7cm;
             padding: 2.5cm 3cm;
             box-sizing: border-box;
             background-color: white;
-        }
+        } */
         body {
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
             /* background-color: lightgrey; */
         }
         img {
             display: block;
             margin: auto;
+            transform: scale(1.5);
         }
         h1, h2, h3 {
             text-align: center;
@@ -31,16 +33,21 @@
 </head>
 <body>
     <div class="">
+        <br>
         <img src="./logo_utna-removebg.png" alt="">
+        <br>
         <br>
         <br>
         <h1> {{activity}} </h1>
         <br>
+        <br>
         <h2> {{teacher}} </h2>
         <h3> {{course}} </h3>
         <br>
+        <br>
         <h2> {{name}} </h2>
         <h3> {{career}} </h3>
+        <br>
         <br>
         <h3> {{date}} </h3>
     </div>
