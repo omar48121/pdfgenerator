@@ -93,7 +93,8 @@ options = {
     'margin-top' : '2.5cm',
     'margin-bottom' : '2.5cm',
     'margin-right' : '3cm',
-    'margin-left' : '3cm'
+    'margin-left' : '3cm',
+    "enable-local-file-access": None
 }
 
 pdfkit.from_file('portada.html', 'pdf_portada.pdf', options=options)
